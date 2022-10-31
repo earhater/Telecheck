@@ -3,7 +3,7 @@ import sqlite3
 import logging
 conn = sqlite3.connect('usernames', check_same_thread=False)
 cursor = conn.cursor()
-BOT_TOKEN = '5704370416:AAEX8xxAnZIYRuj6k6gcBilVILk-uPshyTs'
+BOT_TOKEN = ''
 bot = telebot.TeleBot(BOT_TOKEN)
 
 def update_sqlite_table(ids, username): #updating NOW WALLET
